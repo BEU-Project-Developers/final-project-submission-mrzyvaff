@@ -1,0 +1,13 @@
+C:\Users\Fakhriyya\source\repos\EmployeeManagement\EmployeeManagement\bin\Debug\EmployeeManagement.exe.config
+C:\Users\Fakhriyya\source\repos\EmployeeManagement\EmployeeManagement\bin\Debug\EmployeeManagement.exe
+C:\Users\Fakhriyya\source\repos\EmployeeManagement\EmployeeManagement\bin\Debug\EmployeeManagement.pdb
+C:\Users\Fakhriyya\source\repos\EmployeeManagement\EmployeeManagement\obj\Debug\EmployeeManagement.csproj.AssemblyReference.cache
+C:\Users\Fakhriyya\source\repos\EmployeeManagement\EmployeeManagement\obj\Debug\EmployeeManagement.Employees.resources
+C:\Users\Fakhriyya\source\repos\EmployeeManagement\EmployeeManagement\obj\Debug\EmployeeManagement.Login.resources
+C:\Users\Fakhriyya\source\repos\EmployeeManagement\EmployeeManagement\obj\Debug\EmployeeManagement.Properties.Resources.resources
+C:\Users\Fakhriyya\source\repos\EmployeeManagement\EmployeeManagement\obj\Debug\EmployeeManagement.csproj.GenerateResource.cache
+C:\Users\Fakhriyya\source\repos\EmployeeManagement\EmployeeManagement\obj\Debug\EmployeeManagement.csproj.CoreCompileInputs.cache
+C:\Users\Fakhriyya\source\repos\EmployeeManagement\EmployeeManagement\obj\Debug\EmployeeManagement.exe
+C:\Users\Fakhriyya\source\repos\EmployeeManagement\EmployeeManagement\obj\Debug\EmployeeManagement.pdb
+C:\Users\Fakhriyya\source\repos\EmployeeManagement\EmployeeManagement\obj\Debug\EmployeeManagement.Departments.resources
+C:\Users\Fakhriyya\source\repos\EmployeeManagement\EmployeeManagement\obj\Debug\EmployeeManagement.Salaries.resources
