@@ -93,7 +93,7 @@
             this.EditBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.EditBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.EditBtn.ForeColor = System.Drawing.Color.White;
-            this.EditBtn.Location = new System.Drawing.Point(181, 311);
+            this.EditBtn.Location = new System.Drawing.Point(295, 360);
             this.EditBtn.Name = "EditBtn";
             this.EditBtn.Size = new System.Drawing.Size(89, 35);
             this.EditBtn.TabIndex = 40;
@@ -107,7 +107,7 @@
             this.AddBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.AddBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AddBtn.ForeColor = System.Drawing.Color.White;
-            this.AddBtn.Location = new System.Drawing.Point(59, 311);
+            this.AddBtn.Location = new System.Drawing.Point(173, 360);
             this.AddBtn.Name = "AddBtn";
             this.AddBtn.Size = new System.Drawing.Size(89, 35);
             this.AddBtn.TabIndex = 39;
@@ -118,7 +118,7 @@
             // DepNameTb
             // 
             this.DepNameTb.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.DepNameTb.Location = new System.Drawing.Point(32, 260);
+            this.DepNameTb.Location = new System.Drawing.Point(146, 309);
             this.DepNameTb.Name = "DepNameTb";
             this.DepNameTb.Size = new System.Drawing.Size(270, 26);
             this.DepNameTb.TabIndex = 27;
@@ -128,7 +128,7 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.Navy;
-            this.label3.Location = new System.Drawing.Point(42, 237);
+            this.label3.Location = new System.Drawing.Point(156, 286);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(140, 20);
             this.label3.TabIndex = 26;
@@ -137,9 +137,9 @@
             // DepList
             // 
             this.DepList.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.DepList.Location = new System.Drawing.Point(588, 237);
+            this.DepList.Location = new System.Drawing.Point(560, 260);
             this.DepList.Name = "DepList";
-            this.DepList.Size = new System.Drawing.Size(275, 265);
+            this.DepList.Size = new System.Drawing.Size(235, 265);
             this.DepList.TabIndex = 41;
             this.DepList.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DepList_CellContentClick);
             // 
@@ -251,7 +251,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::EmployeeManagement.Properties.Resources.ems;
-            this.pictureBox1.Location = new System.Drawing.Point(98, 190);
+            this.pictureBox1.Location = new System.Drawing.Point(212, 239);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(62, 42);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -264,7 +264,7 @@
             this.DeleteBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.DeleteBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.DeleteBtn.ForeColor = System.Drawing.Color.White;
-            this.DeleteBtn.Location = new System.Drawing.Point(110, 363);
+            this.DeleteBtn.Location = new System.Drawing.Point(224, 412);
             this.DeleteBtn.Name = "DeleteBtn";
             this.DeleteBtn.Size = new System.Drawing.Size(89, 35);
             this.DeleteBtn.TabIndex = 52;

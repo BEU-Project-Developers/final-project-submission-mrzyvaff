@@ -3,32 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\Fakhriyya\\source\\repos\\EmployeeManagement\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B2D59C1C-7B41-43D7-8626-A1560D14A42D}|EmployeeManagement\\EmployeeManagement.csproj|c:\\users\\fakhriyya\\source\\repos\\employeemanagement\\employeemanagement\\employees.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2D59C1C-7B41-43D7-8626-A1560D14A42D}|EmployeeManagement\\EmployeeManagement.csproj|solutionrelative:employeemanagement\\employees.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2D59C1C-7B41-43D7-8626-A1560D14A42D}|EmployeeManagement\\EmployeeManagement.csproj|C:\\Users\\Fakhriyya\\source\\repos\\EmployeeManagement\\employeemanagement\\employees.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{B2D59C1C-7B41-43D7-8626-A1560D14A42D}|EmployeeManagement\\EmployeeManagement.csproj|c:\\users\\fakhriyya\\source\\repos\\employeemanagement\\employeemanagement\\employees.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{B2D59C1C-7B41-43D7-8626-A1560D14A42D}|EmployeeManagement\\EmployeeManagement.csproj|solutionrelative:employeemanagement\\employees.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B2D59C1C-7B41-43D7-8626-A1560D14A42D}|EmployeeManagement\\EmployeeManagement.csproj|c:\\users\\fakhriyya\\source\\repos\\employeemanagement\\employeemanagement\\departments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{B2D59C1C-7B41-43D7-8626-A1560D14A42D}|EmployeeManagement\\EmployeeManagement.csproj|C:\\Users\\Fakhriyya\\source\\repos\\EmployeeManagement\\employeemanagement\\employees.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2D59C1C-7B41-43D7-8626-A1560D14A42D}|EmployeeManagement\\EmployeeManagement.csproj|solutionrelative:employeemanagement\\employees.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2D59C1C-7B41-43D7-8626-A1560D14A42D}|EmployeeManagement\\EmployeeManagement.csproj|C:\\Users\\Fakhriyya\\source\\repos\\EmployeeManagement\\employeemanagement\\employees.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2D59C1C-7B41-43D7-8626-A1560D14A42D}|EmployeeManagement\\EmployeeManagement.csproj|solutionrelative:employeemanagement\\employees.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2D59C1C-7B41-43D7-8626-A1560D14A42D}|EmployeeManagement\\EmployeeManagement.csproj|C:\\Users\\Fakhriyya\\source\\repos\\EmployeeManagement\\employeemanagement\\departments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{B2D59C1C-7B41-43D7-8626-A1560D14A42D}|EmployeeManagement\\EmployeeManagement.csproj|solutionrelative:employeemanagement\\departments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B2D59C1C-7B41-43D7-8626-A1560D14A42D}|EmployeeManagement\\EmployeeManagement.csproj|C:\\Users\\Fakhriyya\\source\\repos\\EmployeeManagement\\employeemanagement\\functions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2D59C1C-7B41-43D7-8626-A1560D14A42D}|EmployeeManagement\\EmployeeManagement.csproj|solutionrelative:employeemanagement\\functions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2D59C1C-7B41-43D7-8626-A1560D14A42D}|EmployeeManagement\\EmployeeManagement.csproj|C:\\Users\\Fakhriyya\\source\\repos\\EmployeeManagement\\employeemanagement\\departments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2D59C1C-7B41-43D7-8626-A1560D14A42D}|EmployeeManagement\\EmployeeManagement.csproj|solutionrelative:employeemanagement\\departments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B2D59C1C-7B41-43D7-8626-A1560D14A42D}|EmployeeManagement\\EmployeeManagement.csproj|C:\\Users\\Fakhriyya\\source\\repos\\EmployeeManagement\\employeemanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2D59C1C-7B41-43D7-8626-A1560D14A42D}|EmployeeManagement\\EmployeeManagement.csproj|solutionrelative:employeemanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B2D59C1C-7B41-43D7-8626-A1560D14A42D}|EmployeeManagement\\EmployeeManagement.csproj|C:\\Users\\Fakhriyya\\source\\repos\\EmployeeManagement\\employeemanagement\\departments.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B2D59C1C-7B41-43D7-8626-A1560D14A42D}|EmployeeManagement\\EmployeeManagement.csproj|solutionrelative:employeemanagement\\departments.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B2D59C1C-7B41-43D7-8626-A1560D14A42D}|EmployeeManagement\\EmployeeManagement.csproj|C:\\Users\\Fakhriyya\\source\\repos\\EmployeeManagement\\employeemanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2D59C1C-7B41-43D7-8626-A1560D14A42D}|EmployeeManagement\\EmployeeManagement.csproj|solutionrelative:employeemanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B2D59C1C-7B41-43D7-8626-A1560D14A42D}|EmployeeManagement\\EmployeeManagement.csproj|C:\\Users\\Fakhriyya\\source\\repos\\EmployeeManagement\\employeemanagement\\departments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2D59C1C-7B41-43D7-8626-A1560D14A42D}|EmployeeManagement\\EmployeeManagement.csproj|solutionrelative:employeemanagement\\departments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2D59C1C-7B41-43D7-8626-A1560D14A42D}|EmployeeManagement\\EmployeeManagement.csproj|C:\\Users\\Fakhriyya\\source\\repos\\EmployeeManagement\\employeemanagement\\functions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2D59C1C-7B41-43D7-8626-A1560D14A42D}|EmployeeManagement\\EmployeeManagement.csproj|solutionrelative:employeemanagement\\functions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,50 +42,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "Employees.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Fakhriyya\\source\\repos\\EmployeeManagement\\EmployeeManagement\\Employees.Designer.cs",
+              "RelativeDocumentMoniker": "EmployeeManagement\\Employees.Designer.cs",
+              "ToolTip": "C:\\Users\\Fakhriyya\\source\\repos\\EmployeeManagement\\EmployeeManagement\\Employees.Designer.cs",
+              "RelativeToolTip": "EmployeeManagement\\Employees.Designer.cs",
+              "ViewState": "AgIAALQAAAAAAAAAAAAiwMYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T16:38:43.318Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Employees.cs",
               "DocumentMoniker": "C:\\Users\\Fakhriyya\\source\\repos\\EmployeeManagement\\EmployeeManagement\\Employees.cs",
               "RelativeDocumentMoniker": "EmployeeManagement\\Employees.cs",
               "ToolTip": "C:\\Users\\Fakhriyya\\source\\repos\\EmployeeManagement\\EmployeeManagement\\Employees.cs",
               "RelativeToolTip": "EmployeeManagement\\Employees.cs",
-              "ViewState": "AgIAACIAAABQqJmZmZkuwEcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAF8AAAAAAAAAAAAkwGwAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-22T11:00:12.867Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Departments.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Fakhriyya\\source\\repos\\EmployeeManagement\\EmployeeManagement\\Departments.Designer.cs",
-              "RelativeDocumentMoniker": "EmployeeManagement\\Departments.Designer.cs",
-              "ToolTip": "C:\\Users\\Fakhriyya\\source\\repos\\EmployeeManagement\\EmployeeManagement\\Departments.Designer.cs",
-              "RelativeToolTip": "EmployeeManagement\\Departments.Designer.cs",
-              "ViewState": "AgIAAEABAACAMDMzMzMLwBUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-21T12:57:17.466Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Fakhriyya\\source\\repos\\EmployeeManagement\\EmployeeManagement\\Program.cs",
-              "RelativeDocumentMoniker": "EmployeeManagement\\Program.cs",
-              "ToolTip": "C:\\Users\\Fakhriyya\\source\\repos\\EmployeeManagement\\EmployeeManagement\\Program.cs",
-              "RelativeToolTip": "EmployeeManagement\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-21T07:15:41.604Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Employees.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Fakhriyya\\source\\repos\\EmployeeManagement\\EmployeeManagement\\Employees.cs",
               "RelativeDocumentMoniker": "EmployeeManagement\\Employees.cs",
@@ -93,20 +84,43 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Departments.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Fakhriyya\\source\\repos\\EmployeeManagement\\EmployeeManagement\\Departments.Designer.cs",
+              "RelativeDocumentMoniker": "EmployeeManagement\\Departments.Designer.cs",
+              "ToolTip": "C:\\Users\\Fakhriyya\\source\\repos\\EmployeeManagement\\EmployeeManagement\\Departments.Designer.cs",
+              "RelativeToolTip": "EmployeeManagement\\Departments.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T12:57:17.466Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Fakhriyya\\source\\repos\\EmployeeManagement\\EmployeeManagement\\Program.cs",
+              "RelativeDocumentMoniker": "EmployeeManagement\\Program.cs",
+              "ToolTip": "C:\\Users\\Fakhriyya\\source\\repos\\EmployeeManagement\\EmployeeManagement\\Program.cs",
+              "RelativeToolTip": "EmployeeManagement\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T07:15:41.604Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Departments.cs",
               "DocumentMoniker": "C:\\Users\\Fakhriyya\\source\\repos\\EmployeeManagement\\EmployeeManagement\\Departments.cs",
               "RelativeDocumentMoniker": "EmployeeManagement\\Departments.cs",
               "ToolTip": "C:\\Users\\Fakhriyya\\source\\repos\\EmployeeManagement\\EmployeeManagement\\Departments.cs",
               "RelativeToolTip": "EmployeeManagement\\Departments.cs",
-              "ViewState": "AgIAAGYAAAAAOTMzMzMrwCsAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAABoAAAAANjMzMzMbwDgAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-21T07:39:55.538Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-21T07:39:55.538Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "Functions.cs",
               "DocumentMoniker": "C:\\Users\\Fakhriyya\\source\\repos\\EmployeeManagement\\EmployeeManagement\\Functions.cs",
               "RelativeDocumentMoniker": "EmployeeManagement\\Functions.cs",
@@ -114,20 +128,18 @@
               "RelativeToolTip": "EmployeeManagement\\Functions.cs",
               "ViewState": "AgIAABoAAAAgZmZmZmYkwCQAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-21T07:15:57.115Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-21T07:15:57.115Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Departments.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Fakhriyya\\source\\repos\\EmployeeManagement\\EmployeeManagement\\Departments.cs",
               "RelativeDocumentMoniker": "EmployeeManagement\\Departments.cs",
               "ToolTip": "C:\\Users\\Fakhriyya\\source\\repos\\EmployeeManagement\\EmployeeManagement\\Departments.cs [Design]",
               "RelativeToolTip": "EmployeeManagement\\Departments.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-21T06:14:32.92Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-01-21T06:14:32.92Z"
             }
           ]
         }

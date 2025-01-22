@@ -74,7 +74,6 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1144, 100);
             this.panel1.TabIndex = 0;
-            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // label1
             // 
@@ -95,7 +94,6 @@
             this.label2.Size = new System.Drawing.Size(149, 20);
             this.label2.TabIndex = 0;
             this.label2.Text = "Manage Employees";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label3
             // 
@@ -107,7 +105,6 @@
             this.label3.Size = new System.Drawing.Size(125, 20);
             this.label3.TabIndex = 6;
             this.label3.Text = "Employee Name";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // EmpNameTb
             // 
@@ -199,7 +196,6 @@
             this.GenCb.Name = "GenCb";
             this.GenCb.Size = new System.Drawing.Size(270, 28);
             this.GenCb.TabIndex = 20;
-            this.GenCb.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // DepCb
             // 
@@ -250,14 +246,16 @@
             this.UpdateBtn.TabIndex = 25;
             this.UpdateBtn.Text = "Update";
             this.UpdateBtn.UseVisualStyleBackColor = false;
+            this.UpdateBtn.Click += new System.EventHandler(this.UpdateBtn_Click);
             // 
             // EmployeeList
             // 
             this.EmployeeList.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.EmployeeList.Location = new System.Drawing.Point(423, 216);
+            this.EmployeeList.Location = new System.Drawing.Point(347, 216);
             this.EmployeeList.Name = "EmployeeList";
-            this.EmployeeList.Size = new System.Drawing.Size(638, 304);
+            this.EmployeeList.Size = new System.Drawing.Size(714, 346);
             this.EmployeeList.TabIndex = 26;
+            this.EmployeeList.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.EmployeeList_CellContentClick);
             // 
             // pictureBox1
             // 
