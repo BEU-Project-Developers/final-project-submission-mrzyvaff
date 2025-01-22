@@ -30,7 +30,7 @@ namespace EmployeeManagement
         {
             try
             {
-                if (DepNameTb.Text== "")
+                if (DepNameTb.Text == "")
                 {
                     MessageBox.Show("Missing Data!!!");
                 }
@@ -38,7 +38,7 @@ namespace EmployeeManagement
                 {
                     string Dep = DepNameTb.Text;
                     string Query = $"INSERT INTO DepartmentTbl values('{Dep}')";
-                    Con.SetData(Query);  
+                    Con.SetData(Query);
                     ShowDepartments();
                     MessageBox.Show("Department Added!!!");
                     DepNameTb.Text = "";
@@ -48,17 +48,18 @@ namespace EmployeeManagement
             }
             catch (Exception Ex)
             {
-                MessageBox.Show( Ex.Message);
+                MessageBox.Show(Ex.Message);
             }
         }
         int Key = 0;
         private void DepList_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-            DepNameTb.Text = DepList.SelectedRows[0].Cells[1].Value.ToString();
+            DepNameTb.Text = DepList.SelectedRows[0].Cells[0].Value.ToString();
             if (DepNameTb.Text == "")
             {
                 Key = 0;
-            }else
+            }
+            else
             {
                 Key = Convert.ToInt32(DepList.SelectedRows[0].Cells[0].Value.ToString());
             }
@@ -75,11 +76,11 @@ namespace EmployeeManagement
                 else
                 {
                     string Dep = DepNameTb.Text;
-                    string Query = "Update DepartmentTbl set DepName=$'{Dep}' where DepId={1}"
- ;
+                    string Query = "Update DepartmentTbl set DepName=$'{Dep}' where DepId={1}";
+                    Query = string.Format(Query, DepNameTb.Text, Key);
                     Con.SetData(Query);
                     ShowDepartments();
-                    MessageBox.Show("Department Added!!!");
+                    MessageBox.Show("Department Updated!!!");
                     DepNameTb.Text = "";
                     DepNameTb.Clear();
                     DepNameTb.Focus();
@@ -90,6 +91,39 @@ namespace EmployeeManagement
                 MessageBox.Show(Ex.Message);
             }
 
+        }
+
+        private void DeleteBtn_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                if (DepNameTb.Text == "")
+                {
+                    MessageBox.Show("Missing Data!!!");
+                }
+                else
+                {
+                    string Dep = DepNameTb.Text;
+                    string Query = $"DELETE FROM DepartmentTbl WHERE DepName='{Dep}'";
+                    Con.SetData(Query); 
+                    ShowDepartments(); 
+                    MessageBox.Show("Department Deleted!!!"); 
+                    DepNameTb.Text = ""; 
+                    DepNameTb.Focus();
+                }
+            }
+            catch (Exception Ex)
+            {
+                MessageBox.Show(Ex.Message); 
+            }
+        }
+
+
+        private void EmpLbl_Click(object sender, EventArgs e)
+        {
+            Employees Obj= new Employees();
+            Obj.Show();
+            //this.Hide(); 
         }
     }
 }
