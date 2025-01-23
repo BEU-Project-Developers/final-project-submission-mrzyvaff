@@ -148,5 +148,17 @@ namespace EmployeeManagement
             Login Obj = new Login();
             Obj.Show();
         }
+
+        private void label10_Click(object sender, EventArgs e)
+        {
+            Salaries Obj = new Salaries();
+            Obj.Show();
+        }
+
+        private void label11_Click(object sender, EventArgs e)
+        {
+            Departments Obj = new Departments();
+            Obj.Show();
+        }
     }
 }

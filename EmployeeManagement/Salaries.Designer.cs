@@ -272,6 +272,7 @@
             this.label9.Size = new System.Drawing.Size(102, 20);
             this.label9.TabIndex = 55;
             this.label9.Text = "Departments";
+            this.label9.Click += new System.EventHandler(this.label9_Click);
             // 
             // label10
             // 
@@ -283,6 +284,7 @@
             this.label10.Size = new System.Drawing.Size(79, 20);
             this.label10.TabIndex = 54;
             this.label10.Text = "Employee";
+            this.label10.Click += new System.EventHandler(this.label10_Click);
             // 
             // pictureBox3
             // 

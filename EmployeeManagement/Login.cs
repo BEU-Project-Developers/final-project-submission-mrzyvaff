@@ -25,7 +25,7 @@ namespace EmployeeManagement
             {
                 Employees Obj = new Employees();
                 Obj.Show();
-                this.Hide();
+                //this.Hide(); bu zibiki yazmadad
             }
             else
             {
