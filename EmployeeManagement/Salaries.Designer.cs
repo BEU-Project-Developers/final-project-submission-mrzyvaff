@@ -68,10 +68,6 @@
             this.SalaryList.Name = "SalaryList";
             this.SalaryList.Size = new System.Drawing.Size(637, 323);
             this.SalaryList.TabIndex = 45;
-            this.SalaryList.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.SalaryList_CellContentClick);
-            // 
-            // UpdateBtn
-            // 
             this.UpdateBtn.BackColor = System.Drawing.Color.Navy;
             this.UpdateBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.UpdateBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -82,10 +78,6 @@
             this.UpdateBtn.TabIndex = 44;
             this.UpdateBtn.Text = "Update";
             this.UpdateBtn.UseVisualStyleBackColor = false;
-            this.UpdateBtn.Click += new System.EventHandler(this.button2_Click);
-            // 
-            // AddBtn
-            // 
             this.AddBtn.BackColor = System.Drawing.Color.Navy;
             this.AddBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.AddBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));

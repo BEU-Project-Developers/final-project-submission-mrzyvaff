@@ -19,12 +19,11 @@ namespace EmployeeManagement
         {
             try
             {
-                // Retrieve employee data for dropdown
                 string Query = "SELECT Empid, EmpName FROM EmployeeTbl";
                 DataTable dt = Con.GetData(Query);
                 EmpCb.DataSource = dt;
-                EmpCb.DisplayMember = "EmpName"; // Display employee name in dropdown
-                EmpCb.ValueMember = "Empid"; // Use employee ID as the selected value
+                EmpCb.DisplayMember = "EmpName";
+                EmpCb.ValueMember = "Empid";
             }
             catch (Exception ex)
             {
@@ -32,9 +31,9 @@ namespace EmployeeManagement
             }
         }
 
-        int DSal = 0; // Daily salary of the selected employee
-        string Period = ""; // Salary payment period
-        int d = 1; // Number of days worked
+        int DSal = 0; 
+        string Period = ""; 
+        int d = 1;
 
         private void GetSalary()
         {
@@ -46,11 +45,11 @@ namespace EmployeeManagement
                     return;
                 }
 
-                // Query to get employee salary based on Empid
+                
                 string Query = "SELECT EmpSal FROM EmployeeTbl WHERE Empid = {0}";
                 Query = string.Format(Query, EmpCb.SelectedValue);
 
-                // Fetch salary data
+                
                 DataTable dt = Con.GetData(Query);
                 if (dt.Rows.Count > 0)
                 {
@@ -62,10 +61,10 @@ namespace EmployeeManagement
                     return;
                 }
 
-                // Calculate salary based on days worked
+                
                 if (string.IsNullOrEmpty(DaysTb.Text))
                 {
-                    d = 1; // Default to 1 day if no input
+                    d = 1; 
                 }
                 else
                 {
@@ -80,7 +79,7 @@ namespace EmployeeManagement
                     }
                 }
 
-                // Display the calculated amount
+              
                 AmountTb.Text = "Rs " + (d * DSal);
             }
             catch (Exception ex)
@@ -93,7 +92,7 @@ namespace EmployeeManagement
         {
             try
             {
-                // Query to show all salaries
+                
                 string Query = "SELECT * FROM SalaryTbl";
                 SalaryList.DataSource = Con.GetData(Query);
             }
@@ -107,7 +106,7 @@ namespace EmployeeManagement
         {
             try
             {
-                // Validate input fields
+                
                 if (EmpCb.SelectedIndex == -1 || string.IsNullOrEmpty(DaysTb.Text) || string.IsNullOrEmpty(PeriodTb.Text))
                 {
                     MessageBox.Show("Missing data. Please fill in all fields.");
@@ -120,19 +119,19 @@ namespace EmployeeManagement
                     return;
                 }
 
-                // Calculate the payment period and salary amount
+                
                 Period = PeriodTb.Value.Date.Month.ToString() + " ." + PeriodTb.Value.Date.Year.ToString();
                 int Days = Convert.ToInt32(DaysTb.Text);
                 int Amount = DSal * Days;
 
-                // Query to insert salary record
-                string Query = "INSERT INTO SalaryTbl (Empid, Attendance, Period, Amount, PayDate) VALUES ({0}, {1}, '{2}', {3}, '{4}')";
+                
+                string Query = "INSERT INTO SalaryTbl (Employee, Attendance, Period, Amount, PayDate) VALUES ({0}, {1}, '{2}', {3}, '{4}')";
                 Query = string.Format(Query, EmpCb.SelectedValue, Days, Period, Amount, DateTime.Today.Date);
 
-                // Execute the query using the existing SetData method
+                
                 Con.SetData(Query);
 
-                // Refresh salary list and clear input fields
+                
                 ShowSalaries();
                 MessageBox.Show("Salary Paid!");
                 DaysTb.Text = "";
@@ -151,7 +150,7 @@ namespace EmployeeManagement
 
         private void AmountTb_TextChanged(object sender, EventArgs e)
         {
-            // Optional: Handle any logic for AmountTb text change, if required
+            
         }
 
         private void Logout_Click(object sender, EventArgs e)
