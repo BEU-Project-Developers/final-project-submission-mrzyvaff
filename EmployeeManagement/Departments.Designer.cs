@@ -40,8 +40,8 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.EmpLbl = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
+            this.SalaryLbl = new System.Windows.Forms.Label();
+            this.Logout = new System.Windows.Forms.Label();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
@@ -186,27 +186,29 @@
             this.label6.TabIndex = 47;
             this.label6.Text = "Departments";
             // 
-            // label7
+            // SalaryLbl
             // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.ForeColor = System.Drawing.Color.Navy;
-            this.label7.Location = new System.Drawing.Point(869, 117);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(53, 20);
-            this.label7.TabIndex = 49;
-            this.label7.Text = "Salary";
+            this.SalaryLbl.AutoSize = true;
+            this.SalaryLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.SalaryLbl.ForeColor = System.Drawing.Color.Navy;
+            this.SalaryLbl.Location = new System.Drawing.Point(869, 117);
+            this.SalaryLbl.Name = "SalaryLbl";
+            this.SalaryLbl.Size = new System.Drawing.Size(53, 20);
+            this.SalaryLbl.TabIndex = 49;
+            this.SalaryLbl.Text = "Salary";
+            this.SalaryLbl.Click += new System.EventHandler(this.SalaryLbl_Click);
             // 
-            // label8
+            // Logout
             // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.ForeColor = System.Drawing.Color.Navy;
-            this.label8.Location = new System.Drawing.Point(1002, 117);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(59, 20);
-            this.label8.TabIndex = 51;
-            this.label8.Text = "Logout";
+            this.Logout.AutoSize = true;
+            this.Logout.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Logout.ForeColor = System.Drawing.Color.Navy;
+            this.Logout.Location = new System.Drawing.Point(1002, 117);
+            this.Logout.Name = "Logout";
+            this.Logout.Size = new System.Drawing.Size(59, 20);
+            this.Logout.TabIndex = 51;
+            this.Logout.Text = "Logout";
+            this.Logout.Click += new System.EventHandler(this.Logout_Click);
             // 
             // pictureBox5
             // 
@@ -279,9 +281,9 @@
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1144, 696);
             this.Controls.Add(this.DeleteBtn);
-            this.Controls.Add(this.label8);
+            this.Controls.Add(this.Logout);
             this.Controls.Add(this.pictureBox5);
-            this.Controls.Add(this.label7);
+            this.Controls.Add(this.SalaryLbl);
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.EmpLbl);
@@ -333,9 +335,9 @@
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.Label EmpLbl;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label SalaryLbl;
         private System.Windows.Forms.PictureBox pictureBox4;
-        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label Logout;
         private System.Windows.Forms.PictureBox pictureBox5;
         private System.Windows.Forms.Button DeleteBtn;
     }

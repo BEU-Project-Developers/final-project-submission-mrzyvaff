@@ -125,5 +125,19 @@ namespace EmployeeManagement
             Obj.Show();
             //this.Hide(); 
         }
+
+        private void SalaryLbl_Click(object sender, EventArgs e)
+        {
+            Salaries Obj = new Salaries();
+            Obj.Show();
+
+        }
+
+        private void Logout_Click(object sender, EventArgs e)
+        {
+
+            Login Obj = new Login();
+            Obj.Show();
+        }
     }
 }
